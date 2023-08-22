@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moby - Developer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #35424a;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        h1 { 
+            font-size: 2.5rem;
+        }
+        nav{
+            margin-top: 30px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        section {
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+        .project {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        li a{ 
+            color: white;
+            text-decoration: none;
+            text-transform: capitalize;
+            margin: 4px;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding: 10px; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        li a:hover{
+            margin: 4px;
+            border: #35424a 1px 1px;
+            background-color: #495861;
+            border-bottom: rgb(96, 82, 220) solid 2px;
+        } 
+        .name{
+            letter-spacing: 20px;
+            font-size: 50px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .pos{
+            letter-spacing: 10px;
+        }
+        .social-icons {
+           margin-top: 20px;
+           text-align: left;
+           margin-left: 20px;
+            
+        }
+        .social-icons a{
+            text-decoration: none;
+            margin-right: 20px; 
+        } 
+        .social-icons a img{
+            margin-top: 20px;
+        }
+        .social-icons a img:hover{
+            width: 32px;
+            height: 32px; 
+            transition: 0.5s;
+            margin: 0px;
+            box-shadow: #f4f4f4 1px 1px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="name_and_pos">
+            <h1 class="name">MOBY</h1>
+            <p class="pos">Software Developer</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about" style="">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="social-icons ">
+            <a href="https://discord.com/channels/@me" target="_blank">
+                <img width="20" height="20" src="https://img.icons8.com/fluency/48/000000/discord-logo.png" alt="discord-logo"/>
+            </a>
+            <a href="https://github.com/Moby1010001"target="_blank">
+                <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="github"/>
+            </a>
+            <a href="#"target="_blank">
+                <img width="20" height="20" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new"/>
+            </a>
+            <a href="#"target="_blank">
+                <img width="20" height="20" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/>
+            </a>
+        </div>
+        
+        <section id="image">
+            <img src="https://avatars.githubusercontent.com/u/140709793?s=400&u=c96d93ae237e0ec09828e016f9368389b3ab0825&v=4" alt="Portfolio Image">
+        </section>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Welcome to my developer portfolio! I'm a passionate software developer with a strong interest in web development and machine learning. I enjoy building impactful and user-friendly applications that solve real-world problems.
+        </p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Web App</h3>
+            <p>
+                This is a description of my web application project. It utilizes HTML, CSS, and JavaScript to create an interactive user experience.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Machine Learning Model</h3>
+            <p>
+                In this project, I developed a machine learning model using Python and scikit-learn. The model predicts customer preferences based on historical data.
+            </p>
+        </div>
+        
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            Feel free to get in touch with me through email at <a href="mailto:norhidayabarabadan.mamasabayang@my.smciligan.edu.ph">norhidayabarabadan.mamasabayang@my.smciligan.edu.ph</a>. I'm open to collaboration, job opportunities, or just a friendly conversation about technology!
+        </p>
+    </section>
+</body>
+</html>
